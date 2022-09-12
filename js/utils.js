@@ -14,7 +14,7 @@ function update() {
 function copy(pass) {
     if (pass) {
         navigator.clipboard.writeText(pass);
-        alert("Copied the text: " + pass);
+        alert(`Copied ${pass} to clipboard`);
     } else {
         alert("Generate passwords first");
     }
